@@ -21,20 +21,19 @@ html body{
     margin:0;
 }
 
-.main-content{
+.header-content{
     padding: 2px 0px 10px 0;
     background-color: rgba(90, 90, 100, .2);
     background-image: url("../img/blefjell.JPG");
     /*background-blend-mode: lighten;*/
     background-size: cover;
-    padding-bottom: 20px;
+    padding-bottom: 3px;
 }
 
 .navigation li{
-    display: inline;
+    display: inline-block;
     list-style: none;
-    padding: 0 10px;
-    width:fit-content;  
+    padding: 2px .5em; 
 }
 
 .navigation a {
@@ -66,13 +65,15 @@ html body{
     margin: 0 auto;
     padding: 0 1.5em;
 }
+.section-header{
+    text-align: left;
+}
 
 .img-yngve {
     float: left;
     height: 200px;
     margin: 15px;
     border-radius: 30%;
-
 }
 
 
