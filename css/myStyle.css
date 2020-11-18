@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: aaaaff;
+}
+
+html body{
+    margin: 0;
+    padding:0;
+}
+
+.navigation{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+.navigation ul{
+    margin:0;
+}
+
+.main-content{
+    padding: 2px 0px 10px 0;
+    background-color: rgba(90, 90, 100, .2);
+    background-image: url("../img/blefjell.JPG");
+    /*background-blend-mode: lighten;*/
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.navigation li{
+    display: inline;
+    list-style: none;
+    padding: 0 10px;
+    width:fit-content;  
+}
+
+.navigation a {
+    display: inline-block;
+    text-decoration: none;
+    padding:.6em;
+    color:white;
+}
+
+.navigation a:hover{
+    background-color: rgba(80, 70,200, 200) ;
+    background-color: rgb(89, 170, 207, 20);
+    border-radius: 25px;
+}
+
+.main-header{
+    color: #f0efe0;
+    text-align: center;
+    margin:0;
+    font-size: 2em;
+    padding-top: .3em;
+}
+
+.content-section {
+    margin:1em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.img-yngve {
+    float: left;
+    height: 200px;
+    margin: 15px;
+    border-radius: 30%;
+
+}
+
+
