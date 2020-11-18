@@ -9,6 +9,7 @@
 html body{
     margin: 0;
     padding:0;
+    background-color: lightgrey;
 }
 
 .navigation{
@@ -23,9 +24,9 @@ html body{
 
 .header-content{
     padding: 2px 0px 10px 0;
-    background-color: rgba(90, 90, 100, .2);
+    background-color: rgba(0, 100, 100, .5);
     background-image: url("../img/blefjell.JPG");
-    /*background-blend-mode: lighten;*/
+    /*background-blend-mode: multiply;*/
     background-size: cover;
     padding-bottom: 3px;
 }
@@ -62,8 +63,10 @@ html body{
 }
 .container {
     max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5em;
+    margin: 5px auto;
+    padding: .4em 1.5em;
+    background-color: white;
+    border-radius: 10px;
 }
 .section-header{
     text-align: left;
