@@ -29,6 +29,8 @@ html body{
     /*background-blend-mode: multiply;*/
     background-size: cover;
     padding-bottom: 3px;
+    position: sticky;
+    top:0;
 }
 
 .navigation li{
